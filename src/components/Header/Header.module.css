@@ -1,0 +1,31 @@
+.main_header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+.left_side{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+.navigation_list{
+    display: flex;
+    height: 100%;
+}
+.right_side a{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: #fff;
+    vertical-align: center;
+    text-decoration: none;
+}
+.navigation_list_element{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
